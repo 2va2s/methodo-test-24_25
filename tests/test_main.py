@@ -41,7 +41,7 @@ class TestFunctions(unittest.TestCase):
         # Teste que les mots non-palindromes retournent leur miroir
         cas = [
             {"input": "world", "attendu": "dlrow"},
-            {"input": "hello world", "attendu": "dlrowolleh"},
+            {"input": "hello world", "attendu": "dlrow olleh"},
         ]
 
         for c in cas:
